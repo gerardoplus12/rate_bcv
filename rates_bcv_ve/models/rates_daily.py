@@ -28,7 +28,6 @@ class RatesDaily(models.Model):
         for record in self:
             record.name = f"{record.currency_name} - {record.date}"
 
-    @api.model
     def action_sync_bcv(self):
         """Método principal de Scraping"""
         url = 'https://www.bcv.org.ve/'
