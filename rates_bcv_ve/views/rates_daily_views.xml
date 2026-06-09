@@ -14,7 +14,7 @@
     </record>
 
     <record id="action_rates_daily" model="ir.actions.act_window">
-        <field name="name">Consultar Tasas BCV</field>
+        <field name="name">Consultar Tasas BCV (Cambio por la feature_update2_ticket_002)</field>
         <field name="res_model">rates.daily</field>
         <field name="view_mode">list,form</field>
     </record>

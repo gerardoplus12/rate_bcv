@@ -19,7 +19,7 @@ class RatesDaily(models.Model):
     currency_name = fields.Selection([
         ('USD', 'Dólar (USD)'),
         ('EUR', 'Euro (EUR)')
-    ], string='Moneda', required=True)
+    ], string='Moneda Plus', required=True)
     rate_value = fields.Float(
         string='Valor de la Tasa', digits=(12, 4), required=True)
 
