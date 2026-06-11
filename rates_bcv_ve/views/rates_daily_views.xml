@@ -29,7 +29,10 @@
             <form>
                 <header>
                     <button name="action_sync_bcv" string="Sincronizar BCV" type="object" class="btn-primary"/>
+                    <button name="action_sync_bcv" string="Sincronizar BCV_002" type="object" class="btn-primary"/>
                 </header>
+
+                
                 <sheet>
                     <group>
                         <field name="date"/>
