@@ -14,7 +14,7 @@
     </record>
 
     <record id="action_rates_daily" model="ir.actions.act_window">
-        <field name="name">Consultar Tasas BCV (Feature 001)</field>
+        <field name="name">Consultar Tasas BCV (Feature 003)</field>
         <field name="res_model">rates.daily</field>
         <field name="view_mode">list,form</field>
     </record>
@@ -38,6 +38,7 @@
                         <field name="date"/>
                         <field name="currency_name"/>
                         <field name="rate_value"/>
+                        <field name="name"/>
                     </group>
                 </sheet>
             </form>
