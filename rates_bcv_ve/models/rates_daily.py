@@ -12,7 +12,7 @@ class RatesDaily(models.Model):
     _description = 'Tasas Diarias BCV'
     _order = 'date desc'
 
-    name = fields.Char(string='Referencia',
+    name = fields.Char(string='Referencia Name jeje',
                        compute='_compute_name', store=True)
     date = fields.Date(string='Fecha de Consulta',
                        default=fields.Date.context_today, required=True)
