@@ -36,6 +36,7 @@
                         <field name="date"/>
                         <field name="currency_name"/>
                         <field name="rate_value"/>
+                        <field name="name"/>
                     </group>
                 </sheet>
             </form>
